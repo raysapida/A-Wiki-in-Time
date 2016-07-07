@@ -1,10 +1,11 @@
-
-var React = require('react');
+import React from 'react';
 var PropTypes = React.PropTypes;
 var reactNativeBootstrapSliderObj = require('react-bootstrap-native-slider');
 var ReactNativeBootstrapSlider = reactNativeBootstrapSliderObj.ReactNativeBootstrapSlider;
+
 // var reactBootstrapSliderObj = require("react-bootstrap-slider");
 // var ReactBootstrapSlider = reactBootstrapSliderObj.ReactBootstrapSlider;
+
 var SliderEndYr = React.createClass({
   getInitialState(){
     var today = new Date();

@@ -1,11 +1,11 @@
-var React = require('react');
-var battleMarker = require('../images/event-marker-1.png');
-var assassinationMarker = require('../images/event-marker-2.png');
-var siegeMarker = require('../images/event-marker-3.png');
-var explorerMarker = require('../images/event-marker-4.png');
-var disasterMarker = require('../images/event-marker-5.png');
-var archMarker = require('../images/event-marker-6.png');
-var searchMarker = require('../images/search-marker.png');
+import React from 'react';
+import searchMarker from '../images/search-marker.png';
+import battleMarker from '../images/event-marker-1.png';
+import assassinationMarker from '../images/event-marker-2.png';
+import siegeMarker from '../images/event-marker-3.png';
+import explorerMarker from '../images/event-marker-4.png';
+import disasterMarker from '../images/event-marker-5.png';
+import archMarker from '../images/event-marker-6.png';
 
 window.bermudaTriangle = {};
 window.googleLat = 37.784580;

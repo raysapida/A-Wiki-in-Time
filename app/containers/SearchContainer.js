@@ -1,6 +1,6 @@
-var React = require('react');
-var SubmitForm = require('../components/SubmitForm');
-var axios = require('axios');
+import React from 'react';
+import SubmitForm from '../components/SubmitForm';
+import axios from 'axios';
 var PropTypes = React.PropTypes;
 
 var SearchContainer = React.createClass({

@@ -1,11 +1,11 @@
-var React = require('react');
-// var SubmitForm = require('../components/SubmitForm');
-var Gmap = require('../components/Gmap');
-var initialCenter = {lat: 37.784580, lng: -122.397437};
-var SearchContainer = require('../containers/SearchContainer');
+import React from 'react';
+import Gmap from '../components/Gmap';
+import SearchContainer from '../containers/SearchContainer';
+import NavBarContainer from '../containers/NavBarContainer';
+import SidebarResults from '../components/SidebarResults';
+
 var Sidebar = require('react-sidebar').default;
-var NavBarContainer = require('../containers/NavBarContainer');
-var SidebarResults = require('../components/SidebarResults');
+var initialCenter = {lat: 37.784580, lng: -122.397437};
 
 var Home = React.createClass({
   getInitialState() {

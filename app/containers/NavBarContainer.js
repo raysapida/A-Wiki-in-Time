@@ -1,17 +1,7 @@
-var React = require('react');
-var styles = require('../styles');
+import React from 'react';
+import styles from '../styles';
 
 var NavBarContainer = React.createClass({
-  componentDidMount(){
-      $('#wiki-header').hover(function() {
-        $(this).addClass('magictime perspectiveUpRetourn')
-      });
-
-      $('.GMap').hover(function() {
-        $('#wiki-header').removeClass('magictime perspectiveUpRetourn')
-      })
-  },
-
   render(){
     return(
       <nav className="navbar">

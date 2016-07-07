@@ -1,10 +1,11 @@
-var React = require('react');
+import React from 'react';
+import SliderStartYr from '../components/SliderStartYr';
+import SliderEndYr from '../components/SliderEndYr';
+import SliderRadius from '../components/SliderRadius';
+import styles from '../styles';
+import ReactDOM from 'react-dom';
+
 var PropTypes = React.PropTypes;
-var SliderStartYr = require('../components/SliderStartYr');
-var SliderEndYr = require('../components/SliderEndYr');
-var SliderRadius = require('../components/SliderRadius');
-var styles = require('../styles');
-var ReactDOM = require('react-dom');
 
 var easter_egg = new Konami(function() { alert('Konami Code!')});
 

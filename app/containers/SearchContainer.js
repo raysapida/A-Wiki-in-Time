@@ -1,7 +1,10 @@
+'use strict';
+
 import React from 'react';
 import SubmitForm from '../components/SubmitForm';
 import axios from 'axios';
-var PropTypes = React.PropTypes;
+
+let { PropTypes } = React;
 
 var SearchContainer = React.createClass({
   handleSubmit: function(e) {
@@ -10,7 +13,7 @@ var SearchContainer = React.createClass({
     var data = $('form').serialize();
     axios({
       method: 'post',
-      url: 'https://a-wiki-in-time-backend.herokuapp.com/query',
+      url: 'https://a-wiki-in-time-api.herokuapp.com/query',
       data: data
     }).then(function(response){
       if (!!response.error) {

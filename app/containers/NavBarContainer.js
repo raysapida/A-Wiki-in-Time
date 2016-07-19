@@ -1,7 +1,10 @@
+'use strict';
+
 import React from 'react';
 import styles from '../styles';
+let { Component } = React;
 
-var NavBarContainer = React.createClass({
+export default class NavBarContainer extends Component{
   render(){
     return(
       <nav className="navbar">
@@ -17,8 +20,4 @@ var NavBarContainer = React.createClass({
       </nav>
     )
   }
-
-})
-
-
-module.exports = NavBarContainer;
+}
